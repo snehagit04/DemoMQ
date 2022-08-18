@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1658762089581
+Build-Jdk: 1.8.0_333
+Built-By: user
+Bundle-Blueprint: OSGI-INF/blueprint/beans-declaration.xml,OSGI-INF/blue
+ print/blueprint.xml
+Bundle-Description: Empty Camel Blueprint Example
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.html
+Bundle-ManifestVersion: 2
+Bundle-Name: Empty Camel Blueprint Example [Demo]
+Bundle-SymbolicName: Demo
+Bundle-Version: 1.0.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.example.fuse;uses:="org.apache.camel";version="1.0.0
+ .SNAPSHOT"
+Import-Package: org.apache.camel;version="[2.17,3)",org.osgi.service.blu
+ eprint;version="[1.0.0,2.0.0)",org.slf4j;version="[1.7,2)"
+Tool: Bnd-2.1.0.20130426-122213
